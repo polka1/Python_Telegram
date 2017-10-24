@@ -3,13 +3,12 @@ import time
 import requests
 import traceback
 import datetime as dt
-#from methods import command
-#import configparser
 
-TOKEN = "389787796:AAFYpBhLBA6LYk08YudRQxqRdg6Ps1yxc0E"
+
+TOKEN = "telegram_key"
 URL_WNOW = "http://api.openweathermap.org/data/2.5/weather"
 URL_W24 = "http://api.openweathermap.org/data/2.5/forecast"
-TOKEN_W = "82a710f3434ff0d39d66605caa9e49e8"
+TOKEN_W = "weather_key"
 
 TIME_FORMAT = "%Y-%m-%d %H:%M:%S"
 MAKET_24 = "{0} | {1} °C {3} {2} м/с\n"
