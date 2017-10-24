@@ -8,7 +8,7 @@ from datetime import datetime as dt
 import telegram
 from telegram.error import TimedOut
 
-TOKEN = "440648404:AAHFGa78si7apcmpIWRtawSZCn5LTN4WGLo"
+TOKEN = "telegram_key"
 DAD_ADR = "https://icanhazdadjoke.com/slack"
 cmd_joke = "/joke"
 cmd_help = "/help"
